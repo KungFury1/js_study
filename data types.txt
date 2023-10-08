@@ -1,37 +1,56 @@
-'number' + 3 + 3
+Пример 1: "number" + 3 + 3
+Result is number33
 
-null + 3
+Пример 2: null + 3
+Result is 3
 
-5 && "qwerty"
+Пример 3: 5 && "qwerty"
+Result is qwerty
 
-+'40' + +'2' + "hillel";
+Пример 4: +'40' + +'2' + "hillel";
+Result is 42hillel
 
-'10' - 5 === 6;
+Пример 5: '10' - 5 === 6;
+Result is False
 
-true + false
+Пример 6: true + false
+Result is 1
 
-'4px' - 3
+Пример 7: '4px' - 3
+Result is NaN
 
-'4' - 3
+Пример 8: '4' - 3
+Result is 1
 
-'6' + 3 ** 0;
+Пример 9: '6' + 3 ** 0;
+Result is 61
 
-12 / '6'
+Пример 10: 12 / '6'
+Result is 2
 
-'10' + (5 === 6);
+Пример 11: '10' + (5 === 6);
+Result is 10false
 
-null == ''
+Пример 12: null == ''
+Result is False
 
-3 ** (9 / 3);
+Пример 13: 3 ** (9 / 3);
+Result is 27
 
-!!'false' == !!'true'
+Пример 14: !!'false' == !!'true'
+Result is True
 
-0 || '0' && 1
+Пример 15: 0 || '0' && 1
+Result is 1
 
-(+null == false) < 1;
+Пример 16: (+null == false) < 1;
+Result is False
 
-false && true || true
+Пример 17: false && true || true
+Result is True
 
-false && (false || true);
+Пример 18: false && (false || true);
+Result is False
 
-(+null == false) < 1 ** 5;
+Пример 19: (+null == false) < 1 ** 5;
+Result is False
