@@ -1,6 +1,6 @@
-// const value = prompt("Enter the value (Km, Hrs, Kg):");
-// const measure = +prompt("Enter measure:")
-// let result;
+// var value = prompt("Enter the value (Km, Hrs, Kg):");
+// var measure = +prompt("Enter measure:")
+// var result;
 //     switch (value) {
 //         case "Km":
 //             result = measure * 1000 + " meters";
@@ -17,9 +17,9 @@
 //     }
 //    alert(result);
 
-// const value = "Hrs";
-// const measure = 1
-// let result;
+// var value = "Hrs";
+// var measure = 1
+// var result;
 //     switch (value) {
 //         case "Km":
 //             result = measure * 1000 + " meters";
