@@ -1,5 +1,5 @@
 // var value = prompt("Enter the value (Km, Hrs, Kg):");
-// var measure = +prompt("Enter measure:")
+// var measure = prompt("Enter measure:")
 // var result;
 //     switch (value) {
 //         case "Km":
