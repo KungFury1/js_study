@@ -1,37 +1,68 @@
-// var codex = {
-// "\nversion": " 10th Edition.",
-// "faction": " Tyranids.",
-// "releaseDate": " 2023.",
-// }
-
-// for (let key in codex){
-//     console.log(key + ': ' + codex[key]);
-// }
-// codex.newcodex = " 11th Edition"
-// for (let key in codex){
-//     console.log(key + ': ' + codex[key]);
+// let myProfile = {
+//     name: 'Alex',
+//     age: 29,
+//     role: 'QA',
+//     getInfo: function() {
+//       for (let key in this) {
+//         if (typeof this[key] !== 'function') {
+//             console.log(key + ":" + this[key]);
+//         }
+//       }
 //     }
+//   };
+  
+//   myProfile.getInfo(); 
+//   myProfile.newProperty = 'Нова властивість!';
+//   myProfile.getInfo();
 
-// var services = {
-// 	"стрижка": "60",
-// 	"гоління": "80",
-// 	"Миття голови": "100",
+
+
+
+
+//   const services = {
+//     "стрижка": "80 грн",
+//     "гоління": "60 грн",
+//     "Миття голови": "100 грн",
+//     price: function() {
+//         let total = 0;
+//         for (let service in this) {
+//             if (typeof this[service] === 'string') {
+//                 total += parseInt(this[service]);
+//             }
+//         }
+//         return total;
+//     },
+
+//     minPrice: function() {
+//         let min = Infinity;
+//         for (let service in this) {
+//             if (typeof this[service] === 'string') {
+//                 let price = parseInt(this[service]);
+//                 if (price < min) {
+//                     min = price;
+//                 }
+//             }
+//         }
+//         return min;
+//     },
+
+//     maxPrice: function() {
+//         let max = -Infinity;
+//         for (let service in this) {
+//                 if (typeof this[service] === 'string') {
+//                 let price = parseInt(this[service]);
+//                 if (price > max) {
+//                     max = price;
+//                 }
+//             }
+//         }
+//         return max;
+//     }
 // };
 
-// var keys = Object.keys(services);
-// var minPrice = +services[keys[0]]; 
-// var i;
+// services['Розбити скло'] = "200 грн";
 
-// for (i = 1; i < keys; i++) {
-//     var value = services[keys[i]];
-//     if (value <= minPrice) minPrice = value;
-// }
-
-// maxPrice = 0;
-// for (let keys in services) {
-//   maxPrice += +services[keys];
-// }
-
-// console.log(minPrice + " грн");
-// console.log(maxPrice + " грн");
+// console.log("Загальна вартість наданих послуг: " + services.price() + " грн");
+// console.log("Мінімальна ціна: " + services.minPrice() + " грн");
+// console.log("Максимальна ціна: " + services.maxPrice() + " грн");
 
