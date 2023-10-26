@@ -55,25 +55,37 @@
 //     ]
 //   };
 
-//   console.log(company.clients);
+// function findValueByKey(company, companyName) {
+//     if (company.name === companyName) {
+//         return company;
+//     }
 
-//   let result = company.clients.filter(function (item) {
-// 	return item.partners.name;
-// });
-// console.log(result);
+//     if (company.clients) {
+//         for (const client of company.clients) {
+//             const result = findValueByKey(client, companyName);
+//             if (result) {
+//                 return result;
+//             }
+//         }
+//     } else if (company.partners) {
+//         for (const partner of company.partners) {
+//             const result = findValueByKey(partner, companyName);
+//             if (result) {
+//                 return result;
+//             }
+//         }
+//     }
 
+//     return null;
+// }
 
-// if (Array.isArray(company.clients)) {
-// 	console.log('Это массив!');
+// const result = findValueByKey(company, 'Клієнт 1.2.3');
+
+// if (result) {
+//     console.log('Знайдено компанію:', result.name);
+//     console.log('Тип:', result.type);
+//     console.log('Використовує:', result.uses);
+//     console.log('Продає:', result.sells);
 // } else {
-// 	console.log('Это не массив!');
+//     console.log('Компанію не знайдено');
 // }
-
-
-// for (let arrItem of company.clients) {
-// 	console.log(arrItem);
-// }
-
-// for (let i = 0; i < company.clients.length; i++) {
-// 	console.log(company.clients[i]);
-// } 
