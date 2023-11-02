@@ -1,9 +1,10 @@
-// var str = "sdfhslkhlaASDlsdlsg";
-// var regexp = /[^a|A]/g;
+// var str = "sdfhsAA34242lkhlaASDlsdlsAAAAg";
+// var regexp = /(?:[^aA]{6})/g;
 // console.log("Our search: " + str);
 // console.log(str.search(regexp));
 // var res = str.match(regexp);
 // console.log(res);
+
 
 
 // var arr = [
